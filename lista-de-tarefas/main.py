@@ -1,38 +1,19 @@
-from datetime import datetime
-import textwrap
-
-def getHora():
-    return datetime.now().strftime("%d-%m-%Y %H:%M")
-
-def getMenu():
-    hora_atual = getHora()
-    
-    menu = f'''
-    ===={hora_atual}====
-    ==========MENU==========
-
-    [1]\tCRIAR TAREFA
-    [2]\tLISTAR TAREFAS
-    [3]\tEDITAR TAREFA
-    [4]\tEXCLUIR TAFEFA
-    [5]\tMARCAR TAREFA COMO CONCLUÍDA
-    [0]\tSALVAR E SAIR 
-
-    ========================
-    '''
-    return int(input(textwrap.dedent(menu)))
+from modulos.utilidades import getMenu
+from modulos.tarefas import criar_tarefa, listar_tarefas
+tarefas = []
 
 while True:
     option = getMenu()
 
     if option == 1:
-        pass
+        print("== Criando uma nova tarefa ==")
+        criar_tarefa(tarefas)
 
     elif option == 2:
-        pass
+        print("== Listando as tarefas ==")
+        listar_tarefas(tarefas)
 
-    elif option == 3:
-        
+    elif option == 0:
         print("== Salvando e saindo do Sistema ==")
         break
 
