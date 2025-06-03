@@ -1,8 +1,0 @@
-# Arquivos gerados pelo Python
-__pycache__/
-*.pyc
-*.pyo
-*.pyd
-
-# Arquivo de tarefas salvas
-tarefas.json
