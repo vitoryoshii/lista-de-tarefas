@@ -51,6 +51,7 @@ Siga os passos abaixo para configurar e executar o projeto:
 
 A estrutura de arquivos e pastas do repositório está organizada da seguinte forma:
 
+```
 GERENCIADOR-DE-TAREFAS/ <-- Raiz do repositório clonado
 ├── lista-de-tarefas/ <-- Contém o código fonte principal do projeto
 │ ├── modulos/ # Módulos Python auxiliares
@@ -61,6 +62,7 @@ GERENCIADOR-DE-TAREFAS/ <-- Raiz do repositório clonado
 │ └── tarefas.json # Arquivo para armazenar os dados das tarefas (criado/usado pelo programa)
 ├── LICENSE # Arquivo contendo a licença do projeto (MIT)
 └── README.md # Este arquivo de documentação
+```
 
 ---
 
