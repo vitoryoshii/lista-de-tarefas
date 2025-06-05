@@ -30,7 +30,7 @@ Siga os passos abaixo para configurar e executar o projeto:
 1.  **Clone o repositório:**
 
     ```bash
-    git clone [https://github.com/vitoryoshii/lista-de-tarefas.git](https://github.com/vitoryoshii/lista-de-tarefas.git)
+    git clone https://github.com/vitoryoshii/lista-de-tarefas.git
     ```
 
 2.  **Navegue até a pasta principal do código do projeto:**
